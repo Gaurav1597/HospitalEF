@@ -7,11 +7,9 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using HospitalEF.Data;
 using HospitalEF.Models;
-using Microsoft.AspNetCore.Authorization;
 
 namespace HospitalEF.Controllers
 {
-    [Authorize]
     public class AppointmentsController : Controller
     {
         private readonly HospitalDbContext _context;

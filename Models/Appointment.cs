@@ -8,7 +8,7 @@ namespace HospitalEF.Models
 {
     public class Appointment
     {
-        
+        [Key]
         public int Id { get; set; }//Primary ID
         public string FirstName { get; set; }
         [Required]

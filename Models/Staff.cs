@@ -7,7 +7,7 @@ namespace HospitalEF.Models
 {
     public class Staff//model For Staff Page
     {
-        
+        [Key]
         public int Id { get; set; }//Primary ID
         [Required]
         public string FirstName { get; set; }
